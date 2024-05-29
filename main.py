@@ -10,7 +10,7 @@ def create_item(item: dict):
     return {"item": item}
 
 import joblib
-model = joblib.load('knn_model.joblib')
+model = joblib.load('Models/knn_model.joblib')
 scaler = joblib.load('Models/scaler.joblib')
 
 from pydantic import BaseModel
