@@ -1,1 +1,3 @@
 fastapi[all]
+joblib
+scikit-learn
